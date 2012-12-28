@@ -1,0 +1,96 @@
+<script type="text/javascript">
+var clipJson = '<%=@clip.to_json%>';
+var clipid = <%=@clip.id%>;
+</script>
+<script type="text/javascript">
+function timeDiffSec(d1, d2)
+{
+  var diff=(d1.getTime() - d2.getTime()) / 1000;
+  return diff;
+}
+
+function loadText()
+{
+  // alert('x')
+  var ajaxurl='/helper/ajaxload';
+  // ajaxurl='xxx';
+  var text=$('#pasteText').val();
+$.ajax({
+        type: "POST",
+        url: ajaxurl,
+        data: { clipid: clipid, cliptext: text },
+        dataType: "JSON",
+      error: function (xhr, ajaxOptions, thrownError) {
+        msg(' load error: status=' + xhr.status);
+        msg(' load error: ' + thrownError);
+      }
+    }).success(function(data){
+      // $('#loadText').val(data.paste);
+      var updateTime = new Date(data.updated_js);
+      var curTimeMS = new Date();
+      var diff =  timeDiffSec(curTimeMS, updateTime);
+      if (diff < 15) {
+        // msg(updateTime.toString());
+        $('#pasteText').val(data.paste);
+        msg(' load success');
+      }
+
+    });
+}
+
+function saveText()
+{
+  var ajaxurl='/helper/ajaxsave';
+  var text=$('#pasteText').val();
+  $.ajax({
+        type: "POST",
+        url: ajaxurl,
+        data: { clipid: clipid, cliptext: text },
+        dataType: "JSON",
+      error: function (xhr, ajaxOptions, thrownError) {
+        msg(' status=' + xhr.status);
+        msg(' ' + thrownError);
+      }
+    }).success(function(data){
+      // $('#message').append(' save success');
+      msg(' save success');
+    });
+
+}
+function fn()
+{
+  // alert('fn');
+  loadText();
+}
+function timeWrapper()
+{
+   fn();
+   setTimeout("timeWrapper()", 5000);
+}
+</script>
+<script type="text/javascript">
+
+$(document).ready(function ()
+  {
+    timeWrapper();
+  }
+);
+
+
+</script>
+<div>Share your text anywhere</div>
+
+<span>Your clipboard ID is:</span>
+<%=params[:name]%>
+
+<div>Loaded clip <%=@clip.name  %>
+<%=text_field :any, :name,  :value => @clip.name%>
+
+<%=form_tag({:controller=>'clips', :action=>@form_action, :id => @clip.id}) do %>
+<%= submit_tag 'Update', :onclick => "return saveText();" %>
+<%=text_area :clip, :paste, :id=>'pasteText', :value => @clip.paste, :id => 'cliparea' %>
+
+<%end%>
+
+
+</div>
