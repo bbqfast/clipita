@@ -1,0 +1,40 @@
+
+
+
+Todo list:
+--------------
+- remove id=
+- prototype facebook logon
+- button color
+- round rectangle around share URL
+
+
+Registered user:
+--------------
+- multiple clip?
+- non-expiring note
+- instant update
+- privacy, only you can view the content
+- remember your IP?
+
+Android application
+--------------
+get your clip
+remember the ID
+
+Marketing text:
+--------------
+- free online clipboard 
+- THe simple clipboard online
+- paste text to iphone
+- Share text anywhere
+- clipboard sharing
+- transfer clipboard to iphone
+
+rails g model ouser provider uid name oauth_token oauth_expires_at:datetime
+
+
+
+
+
+

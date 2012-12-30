@@ -78,20 +78,21 @@ $(document).ready(function ()
 
 
 </script>
-<div>Share your text anywhere</div>
-
-<div>Your clipboard ID is:</div>
-<%=params[:name]%>
-<span>Clip last updated at </span>
-i=<%= @clip.updated_js %>
-
-<div>Loaded clip <%=text_field :x, :y, :value => @clip.name  %>
-  <div style="display:none"">JSON: <%= @clip.as_json%> </div>
-<%=form_tag({:controller=>'clips', :action=>@form_action, :id => @clip.id}) do %>
-<%=text_area :clip, :paste, :id=>'pasteText', :value => @clip.paste %>
-<%= submit_tag 'Update', :onclick => "return saveText();" %>
-
-<%end%>
-
-
+<div class="headband">
+<h1><div>Share your text anywhere</div></h1>
 </div>
+<span>Your clipboard ID is:</span>
+<%params[:name]%>
+
+<div>
+<% @clip.updated_js %>
+<%=text_field :x, :y, :value => @clip.name  %>
+</div>
+
+Access your clipboard via:
+<%=text_field :x, :z, :value => request.url%>
+<div>
+<%=text_area :clip, :paste, :id=>'pasteText', :value => @clip.paste %>
+</div>
+<%= button_tag 'Save', :onclick => "return saveText();", :class => "updatebutton" %>
+

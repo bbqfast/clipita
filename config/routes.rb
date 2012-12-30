@@ -3,6 +3,12 @@ Clipita::Application.routes.draw do
   match 'clips/:clipname' => 'clips#index'
   match 'clips' => 'clips#index'
   match ':controller(/:action(/:id))'
+
+match 'auth/:provider/callback', to: 'sessions#create'
+match 'auth/failure', to: redirect('/')
+match 'signout', to: 'sessions#destroy', as: 'signout'
+
+  
   #match ':controller(/:action(/:id))'
   
 
