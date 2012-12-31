@@ -2,27 +2,34 @@
 <html>
 <head>
   <title>Clipita</title>
+
 <%= stylesheet_link_tag    "application", :mediax => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+<div class="headband">
+  <h1><div>Share your text anywhere</div></h1>
+</div>
 
-<div id="user_nav">
+<div id="signin">
   <% if current_user %>
     Signed in as <strong><%= current_user.name %></strong>!
     <%= link_to "Sign out", signout_path, id: "sign_out" %>
   <% else %>
+    <%= link_to "Sign in with Facebook", "/auth/facebook"%>
     <%= link_to "Sign in with Facebook", "/auth/facebook", id: "sign_in" %>
   <% end %>
+
+  <%ENV["FACEBOOK_APP_ID"]%>-<%ENV["FACEBOOK_SECRET"]%>
 </div>
 
-
-
+<%= yield %>
   <div id="message">
   </div>
+
+
 
 </body>
 </html>

@@ -1,13 +1,20 @@
 Clipita::Application.routes.draw do
   #resources :clips
+  
   match 'clips/:clipname' => 'clips#index'
   match 'clips' => 'clips#index'
+
+  match 'auth/facebook/callback', to: 'sessions#create'
+  match 'auth/:provider/callback', to: 'sessions#create'
+  match 'auth/failure', to: redirect('/')
+  match 'signout', to: 'sessions#destroy', as: 'signout'
+
+
+  # placing root/clipid at the end to avoid conflict with other fixed route
+  # route matching based on order in this rile
+  match '/:clipname'=>  'clips#index'
   match ':controller(/:action(/:id))'
-
-match 'auth/:provider/callback', to: 'sessions#create'
-match 'auth/failure', to: redirect('/')
-match 'signout', to: 'sessions#destroy', as: 'signout'
-
+  root to: 'clips#index'
   
   #match ':controller(/:action(/:id))'
   
