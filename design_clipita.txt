@@ -1,13 +1,11 @@
-
- 
-
 Todo list:
 --------------
-- remove id=
-- prototype facebook logon
-- button color
-- round rectangle around share URL
 - share files between computers and devices, delete in 10 mins
+- fill user table with fb email
+- more friendly UID
+- show facebook picture on page
+- round rectangle around share URL
+
 
 Registered user:
 --------------
@@ -25,11 +23,20 @@ remember the ID
 Marketing text:
 --------------
 - free online clipboard 
-- THe simple clipboard online
+- THe simple clipboard online;--[p-
 - paste text to iphone
 - Share text anywhere
 - clipboard sharing
 - transfer clipboard to iphone
 
 rails g model ouser provider uid name oauth_token oauth_expires_at:datetime
+
+
+
+
+Technical Design:
+-----------------
+* If url has user id, show protected page message, back to home
+* after sign-in, create new entry with uid
+
 

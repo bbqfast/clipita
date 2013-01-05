@@ -19,7 +19,7 @@ end
   end
 
   def self.next_clip
-    latest = Clip.find(:all, :order => "id desc", :limit => 1).reverse.first
+    latest = Clip.find(:all, :conditions => [ "user_id is null" ], :order => "id desc", :limit => 1).reverse.first
 
     if latest.nil?
       latest=save_empty_paste('aaa')
@@ -28,6 +28,8 @@ end
       if latest.name.nil?
         raise 'latest has no name'
       end
+    Mylog.log.info('latest name=' + latest.name)
+
       newname = UniqueClip.next_str latest.name
       latest=save_empty_paste(newname)
       return latest
@@ -40,7 +42,16 @@ end
     return clip1
   end
 
+  def self.create_with_content(uid, oldtext, userid)
+    Mylog.log.info('create_with_content' + uid)
+    clip2=Clip.new(:name => uid, :paste => oldtext, :user_id => userid)
+    clip2.save
+    return clip2
+  end
+  
+
   belongs_to :user
   belongs_to :history
-   attr_accessible :name, :paste, :updated_at
+   attr_accessible :name, :paste, :updated_at, :user_id
+   validates_uniqueness_of :name
 end

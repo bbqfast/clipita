@@ -4,8 +4,9 @@ Clipita::Application.routes.draw do
   match 'clips/:clipname' => 'clips#index'
   match 'clips' => 'clips#index'
 
-  match 'auth/facebook/callback', to: 'sessions#create'
-  match 'auth/:provider/callback', to: 'sessions#create'
+  #match 'auth/facebook/callback', to: 'sessions#create'
+  match 'auth/:provide/callback', to: 'sessions#create'
+  #match 'auth/:provider/callback', to: 'sessions#create2'
   match 'auth/failure', to: redirect('/')
   match 'signout', to: 'sessions#destroy', as: 'signout'
 
