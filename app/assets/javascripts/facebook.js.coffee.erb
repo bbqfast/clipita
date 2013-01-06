@@ -8,6 +8,7 @@ jQuery ->
 
 testenvfunc = () ->
     testenv='<%=  Clipita::Application.config.testvar   %>'
+    fbvar='<%= Clipita::Application.config.appid %>'
 
 window.fbAsyncInit = ->
   FB.init(appId: '<%= Clipita::Application.config.appid %>', cookie: true)
