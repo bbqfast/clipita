@@ -2,7 +2,7 @@ class ClipsController < ApplicationController
   def index
 
     if (params[:clipname].nil?)
-      if (!session[:user_id].nil?)
+      if (!session[:user_id].nil?) # do not make new clip if signed to facebook
         redirect_to :controller => 'clips', :action => 'index', :clipname=> current_user.uid.to_s
       end
 
