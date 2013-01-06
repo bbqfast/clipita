@@ -38,6 +38,7 @@
   #config.after_initialize do
     config.testvar = 'config:test'
     config.envvar = ENV["FACEBOOK_APP_ID"]
+    config.appid = ENV["FACEBOOK_APP_ID"]
   #end
 
 

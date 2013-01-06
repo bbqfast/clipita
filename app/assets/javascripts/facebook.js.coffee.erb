@@ -6,6 +6,8 @@ jQuery ->
     dataType: 'script'
     cache: true
 
+testenvfunc = () ->
+    testenv='<%=  Clipita::Application.config.testvar   %>'
 
 window.fbAsyncInit = ->
   FB.init(appId: '<%= Clipita::Application.config.appid %>', cookie: true)
