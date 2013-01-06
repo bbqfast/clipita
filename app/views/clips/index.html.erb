@@ -1,6 +1,7 @@
 <script type="text/javascript">
 var clipJson = '<%=@clip.to_json%>';
 var clipid = <%=@clip.id%>;
+var appid = '<%= Clipita::Application.config.appid %>';
 </script>
 <script type="text/javascript">
 function timeDiffSec(d1, d2)
