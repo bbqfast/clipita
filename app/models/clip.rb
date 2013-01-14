@@ -42,13 +42,16 @@ end
     return clip1
   end
 
-  def self.create_with_content(uid, oldtext, userid)
-    Mylog.log.info('create_with_content' + uid)
-    clip2=Clip.new(:name => uid, :paste => oldtext, :user_id => userid)
+  def self.create_with_content(clipname, oldtext, userid)
+    Mylog.log.info('create_with_content' + clipname)
+    clip2=Clip.new(:name => clipname, :paste => oldtext, :user_id => userid)
     clip2.save
     return clip2
   end
-  
+
+  def self.clip_name_from_user(user)
+     user.email.gsub(/[@]/, '_at_').gsub(/[.]/,'_dot_')
+  end
 
   belongs_to :user
   belongs_to :history

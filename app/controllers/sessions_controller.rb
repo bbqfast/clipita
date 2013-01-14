@@ -1,5 +1,22 @@
 class SessionsController < ApplicationController
+  def index
+
+  end
+  
   def create
+    user = User.find_by_email(params[:user][:login])
+    if user && user.authenticate(params[:user][:password])
+      session[:user_id] = user.id
+      redirect_to :controller => 'clips', :action => 'index', :notice => "Logged in!"
+    else
+      #flash.now.alert = "Invalid email or password"
+       params[:notice]='Invalid email or password'
+      render "index"
+    end
+  end
+
+  # deprecate soon as now we register fb user instead of signing them in directly
+  def createfb
     auth = env["omniauth.auth"]
     params[:debug] = auth.to_s
     Mylog.log.info("AUTH=" + auth.to_s)
@@ -10,10 +27,9 @@ class SessionsController < ApplicationController
     Mylog.log.info('first='+auth.info.first_name)
     Mylog.log.info('last='+auth.info.last_name)
 
-    user1 = User.new(:email => auth.info.email, :first => auth.info.first_name, :last => auth.info.last_name)
+    user1 = User.new(:email => auth.info.email, :first => auth.info.first_name, :last => auth.info.last_name, :user_id => ouser.id)
     user1.save
     Mylog.log.info('saved user id=' + user1.id.to_s)
-
 
     session[:user_id] = ouser.id
 

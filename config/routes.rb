@@ -5,11 +5,20 @@ Clipita::Application.routes.draw do
   match 'clips' => 'clips#index'
 
   #match 'auth/facebook/callback', to: 'sessions#create'
-  match 'auth/:provide/callback', to: 'sessions#create'
+  #match 'auth/:provider/callback', to: 'sessions#create'
+
+  # first time fb authentical will bring user to registration page
+  # with pre-filled data
+  match 'auth/:provider/callback', to: 'users#index'
+
   #match 'auth/:provider/callback', to: 'sessions#create2'
   match 'auth/failure', to: redirect('/')
   match 'signout', to: 'sessions#destroy', as: 'signout'
 
+  #register
+  match '/users', to:  'users#index'
+  match '/users/create', to:  'users#create'
+  match '/sessions/index', to: 'sessions#index'
 
   # placing root/clipid at the end to avoid conflict with other fixed route
   # route matching based on order in this rile

@@ -23,6 +23,7 @@ end
 gem 'jquery-rails'
 
 gem 'omniauth-facebook', '1.4.0'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 group :production do
   # gems specifically for Heroku go here

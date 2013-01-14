@@ -1,0 +1,20 @@
+<div>Register with us</div>
+
+<%= form_tag ({:controller => 'users', :action => 'create'}) do %>
+  <div>
+  First Name: <%= text_field :user, :first, :value => @user.first  %>
+  <%=render :partial => 'error_msg', :local => {:error_field => 'first'}%>
+  </div>
+  <div>
+  Last <%= text_field :user, :last, :value => @user.last %>
+  </div>
+ <div> 
+   Email:
+<%= text_field :user, :email, :value => @user.email %>
+<%= text_field :user, :ouser_id, :value => @user.ouser_id, :style => "display:none;"%>
+ </div>
+  <div>password:<%=password_field :user, :password %></div>
+  <div>confirm password:<%=password_field :user, :password_confirmation %></div>
+
+  <%= submit_tag 'complete registration' %>
+<%end%>

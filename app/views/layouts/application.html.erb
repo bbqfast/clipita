@@ -10,16 +10,18 @@
 <body>
 
 <div class="headband">
-  <h1><div>Share your text anywhere</div></h1>
+  <h1><div class="nounderline"><%= link_to "Share your text anywhere", :controller => 'clips', :action => 'index'%></div></h1>
 </div>
 
 <div id="signin">
   <% if current_user %>
-    Signed in as <strong><%= current_user.name %></strong>!
+    Signed in as <strong><%= current_user.email %></strong>!
     <%= link_to "Sign out", signout_path, id: "sign_out" %>
   <% else %>
-    <div><%= link_to "Sign in with Facebook", "/auth/facebook"%></div>
+    <div><%= link_to "Register", :controller => 'users', :action => 'index'%></div>
+    <div><%= link_to "Sign in with Facebook (test)", "/auth/facebook"%></div>
     <%= link_to "Sign in with Facebook", "/auth/facebook", id: "sign_in" %>
+    <%= link_to 'sign in with email', :controller => 'sessions', :action => 'index' %>
   <% end %>
 
   <%ENV["FACEBOOK_APP_ID"]%>-<%ENV["FACEBOOK_SECRET"]%>
@@ -32,6 +34,8 @@
     debug=
     <%=params[:debug]%>
   </div>
+  <%=params[:notice]  %>
+
 
   <div>testconfig=<%=  Clipita::Application.config.testvar   %></div>
   <div>appid=<%= Clipita::Application.config.envvar %> </div>

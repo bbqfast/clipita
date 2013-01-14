@@ -17,6 +17,12 @@ h1 {
      font-size: 250%;
 }
 
+.nounderline a
+{
+     text-decoration: none;
+}
+
+
 .headband
 {
     margin-left:0px;
