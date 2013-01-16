@@ -9,7 +9,6 @@ class UsersController < ApplicationController
 
     auth = env["omniauth.auth"]
     if (!auth.nil?)
-      params[:debug] = auth.to_s
       #Mylog.log.info("AUTH=" + auth.to_s)
       #Mylog.log.info("PARAM=" + env["omniauth.params"].to_s)
 

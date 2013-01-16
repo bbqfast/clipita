@@ -18,7 +18,6 @@ class SessionsController < ApplicationController
   # deprecate soon as now we register fb user instead of signing them in directly
   def createfb
     auth = env["omniauth.auth"]
-    params[:debug] = auth.to_s
     Mylog.log.info("AUTH=" + auth.to_s)
     Mylog.log.info("PARAM=" + env["omniauth.params"].to_s)
 

@@ -2,6 +2,7 @@
 var clipJson = '<%=@clip.to_json%>';
 var clipid = <%=@clip.id%>;
 var appid = '<%= Clipita::Application.config.appid %>';
+var ipaddr = '<%=request.remote_ip%>';
 </script>
 <script type="text/javascript">
 function timeDiffSec(d1, d2)
@@ -68,6 +69,19 @@ function timeWrapper()
    fn();
    setTimeout("timeWrapper()", 5000);
 }
+
+function getUA()
+{
+  var ua = window.navigator.userAgent;
+  $("#pasteText").val(ua);
+}
+
+function getIP()
+{
+  // var ua = window.navigator.userAgent;
+  $("#pasteText").val(ipaddr);
+}
+
 </script>
 <script type="text/javascript">
 
@@ -90,8 +104,19 @@ var clipname='<%=@clip.name%>';
 
 Access your clipboard via:
 <%=text_field :x, :z, :value => request.url%>
-<div>
+
+<div class="centerContainer">
+<div class="pasteboard">
 <%=text_area :clip, :paste, :id=>'pasteText', :value => @clip.paste %>
 </div>
-<%= button_tag 'Save', :onclick => "return saveText();", :class => "updatebutton" %>
+<div class="rightPanel">
+<%= button_tag 'Capture user agent', :onclick => "getUA();", :class => "toolsbutton" %>
+<%= button_tag 'Capture user IP', :onclick => "getIP();", :class => "toolsbutton" %>
+</div>
 
+</div>
+<p class="clear"></p>
+<div class="bottom">
+
+<%= button_tag 'Save', :onclick => "return saveText();", :class => "updatebutton" %>
+</div>

@@ -8,6 +8,8 @@ class ClipsController < ApplicationController
       end
 
       @clip=Clip.next_clip
+      redirect_to :controller => 'clips', :action => 'index', :clipname=> @clip.name
+
       #@clip=Clip.save_empty_paste(newname)
       params[:name]=@clip.name
     else

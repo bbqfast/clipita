@@ -28,18 +28,15 @@
 </div>
 
 <%= yield %>
-  <div id="message">
-  </div>
-  <div id="errors">
-    debug=
-    <%=params[:debug]%>
-  </div>
   <%=params[:notice]  %>
 
+<div id="debug">
+  <div id="message">
+  </div>
 
   <div>testconfig=<%=  Clipita::Application.config.testvar   %></div>
   <div>appid=<%= Clipita::Application.config.envvar %> </div>
   <div> env=<%= Clipita::Application.config.envvar %> </div>
-
+</div>
 </body>
 </html>

@@ -1,14 +1,16 @@
 Todo list:
 --------------
+- share URL wrong on visit homepage
+- custom clip name
 - change wording for access clip for registered user
-- show facebook picture on page
-- register without facebook
-- use email as UID
-- consolidate user and ouser
-in- fill user table with fb email
 - round rectangle around share URL
-- share files between computers and devices, delete in 10 mins
 
+Recently done:
+--------------
+- register without facebook
+- use email as clip ID
+- fill user table with fb email
+- consolidate user and ouser
 
 Registered user:
 --------------
@@ -17,6 +19,12 @@ Registered user:
 - instant update
 - privacy, only you can view the content
 - remember your IP?h
+
+Features:
+----------
+- share files between computers and devices, delete in 10 mins
+
+
 
 Android application
 --------------
