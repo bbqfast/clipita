@@ -1,0 +1,1000 @@
+   67  sudo apt-get install vim-gno
+   68  sudo apt-get install vim-gnome 
+   69  u
+   70  ssh-keygen -t rsa -C 
+   71  ssh-keygen -t rsa -C "bbqnow@hotmail.com"
+   72  cd ..
+   73  cd .ssh/
+   74  ls
+   75  gvim id_rsa.pub &
+   76  ssh-keygen -t rsa -C "bbqfast@hotmail.com"
+   77  rm *
+   78  ssh-keygen -t rsa -C "bbqfast@hotmail.com"
+   79  gvim id_rsa.pub 
+   80  ruby -v
+   81  rvm
+   82  gvim &
+   83  cd .ssh/
+   84  ls
+   85  rm id_rsa.pub 
+   86  cd ..
+   87  git clone git@gitbub.com:bbqfas@hotmail.com/myservice.git
+   88  git clone git@github.com:bbqfas@hotmail.com/myservice.git
+   89  git clone git@github.com:bbqfast@hotmail.com/myservice.git
+   90  git clone git@github.com:bbqfast/myservice.git
+   91  cd myservice/
+   92  ls
+   93  cd app
+   94  cd controllers/
+   95  ls
+   96  git fetch
+   97  ls
+   98  gvim service_controller.rb 
+   99  git fetch .
+  100  gvim service_controller.rb &
+  101  git pull .
+  102  gvim service_controller.rb &
+  103  sudo apt-get install bcmwl-kernel-source 
+  104  sudo rfkill unblock all
+  105  sudo rfkill list
+  106  sudo rfkill unblock all
+  107  sudo rfkill list
+  108  sudo su
+  109  which firefox
+  110  ls /usr/bin/firefox 
+  111  ls /usr/bin/firefox/
+  112  gvim /usr/bin/firefox 
+  113  sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian oneiric contrib"
+  114  wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -O- | sudo apt-key add -
+  115  sudo apt-get update
+  116  sudo apt-get install virtualbox-4.1
+  117  sudo apt-get install virtualbox-4.2
+  118  sudo gvim /etc/apt/sources.list 
+  119  sudo apt-key add oracle_vbox.asc
+  120  wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -O- | sudo apt-key add -
+  121  sudo apt-get install virtualbox-4.2
+  122  sudo apt-get install virtualbox-4.24
+  123  sudo apt-get install virtualbox-4.2.44
+  124  sudo gvim /etc/apt/sources.list 
+  125  sudo apt-get install virtualbox-4.2
+  126  sudo apt-get install virtualbox
+  127  sudo apt-get install dkms
+  128  sudo fdisk -l
+  129  mount -t ntfs /dev/sda5
+  130  sudo mount -t ntfs /dev/sda5
+  131  sudo mount -t ntfs /dev/sda5 /mnt/e
+  132  mkdir /mnt/e
+  133  sudo mkdir /mnt/e
+  134  sudo mount -t ntfs /dev/sda5 /mnt/e
+  135  sudo gvim /etc/fstab 
+  136  sudo fdisk -l
+  137  free -m
+  138  cd myservice/
+  139  git pull origin master
+  140  ls
+  141  gvim .
+  142  sudo apt-get install openjdk-6-jdk
+  143  sudo apt-get install dkms
+  144  cd ..
+  145  history > hist.txt
+  146  gvim hist.txt 
+  147  cd Downloads/
+  148  ls
+  149  chmod +x netbeans-6.9.1-ml-ruby-linux.sh 
+  150  ./netbeans-6.9.1-ml-ruby-linux.sh 
+  151  history
+  152  history > his2.txt
+  153  gvim his2.txt 
+  154  sudo rfkill list
+  155  ls
+  156  ls -la
+  157  ls -lat
+  158  gvim .bash
+  159  gvim .bashrc 
+  160  gvim /etc/modprobe.d/
+  161  sudo rfkill unblock all
+  162  sudo rfkill list
+  163  sudo rfkill unblock all
+  164  sudo rfkill list
+  165  sudo usermod -a -G bbqnow
+  166  sudo usermod -a -G vboxusers bbqnow
+  167  git clone spree
+  168  git clone https://github.com/spree/spree.git
+  169  ls
+  170  git clone https://github.com/fdv/typo.git
+  171  cd myservice
+  172  git pull origin master er
+  173  git pull origin master 
+  174  ls
+  175  gvim his2.txt 
+  176  sudo rfkill unblock all
+  177  sudo rfkill list
+  178  sudo rfkill unblock all
+  179  sudo modprobe
+  180  gvim /etc/modprobe.d/blacklist.conf 
+  181  sudo rfkill unblock all
+  182  sudo rfkill list 
+  183  cd myservice
+  184  rails s
+  185  mysql
+  186  mysql -u root
+  187  cd myservice
+  188  git pull origin master
+  189  rake db:create
+  190  bundle install
+  191  pg -v '0.14.1'
+  192  gem install pg -v '0.14.1'
+  193  sudo gem install pg -v '0.14.1'
+  194  gvim Gemfile
+  195  bundle install
+  196  rake db:create
+  197  bundle exec
+  198  bundle exec rake
+  199  rake db:create
+  200  gem uninstall rake
+  201  sudo gem uninstall rake
+  202  rake db:create
+  203  rake db:migrate
+  204  cd ..
+  205  git clone https://github.com/twitter/bootstrap.git
+  206  cd myservice
+  207  rails s
+  208  calc
+  209  cls
+  210  clr
+  211  ls
+  212  cd myservice
+  213  rails s
+  214  komodo
+  215  ./komodo
+  216  ls
+  217  cd ..
+  218  ./komodo
+  219  komodo
+  220  ls
+  221  ls kom*
+  222  /usr/bin/komodo
+  223  cd myservice
+  224  ls
+  225  sudo apt-get install meld 
+  226  meld
+  227  git diftool
+  228  git difftool
+  229  git help difftool 
+  230  git config --global diff.external meld
+  231  git diff app/controllers/service_controller.rb
+  232  meld
+  233  git diff app/controllers/service_controller.rb
+  234  git meld
+  235  rails s
+  236  git config --global diff.external /home/nathan/diff.py
+  237  git diff app/controllers/service_controller.rb
+  238  git config --global diff.external /home/bbqnow/diff.py
+  239  git diff app/controllers/service_controller.rb
+  240  rails s
+  241  ls
+  242  gedit dev.txt &
+  243  cd myservice
+  244  ls
+  245  rails generate model Role role_name:string
+  246  rails generate model User first:string last:string email:string login:string role:reference
+  247  rails destroye model User first:string last:string email:string login:string role:reference
+  248  rails destroy model User first:string last:string email:string login:string role:reference
+  249  rails generate model User first:string last:string email:string login:string password_digest:string role:reference
+  250  rails destroy model User first:string last:string email:string login:string role:reference
+  251  rails generate model User first:string last:string email:string login:string password_digest:string password_hash:string password_salt:string role:reference
+  252  sudo apt-get install nautilus-open-terminal
+  253  gvim Gemfile
+  254  bundle install
+  255  gvim Gemfile
+  256  gem install
+  257  gem install bcrypt-ruby
+  258  bundle install
+  259  bundle install bcrypt-ruby
+  260  bundle install
+  261  bundle show bcrypt-rub
+  262  bundle show bcrypt-ruby
+  263  rake db:migrate
+  264  rails g controller sessions
+  265  bundle install
+  266  gem install pg -v '0.14.1'
+  267  sudo gem install pg -v '0.14.1'
+  268  git add .
+  269  git commit
+  270  git diff
+  271  git diff .
+  272  git diff 
+  273  git diff *
+  274  git
+  275  gem list
+  276  telnet smtp.gmail.com
+  277  telnet smtp.gmail.com 25
+  278  ping smtp.gmail.com 
+  279  telnet smtp.gmail.com 465
+  280  sudo gem install tlsmail
+  281  sudo bundle install
+  282  telnet smtp.gmail.com 587
+  283  telnet smtp.gmail.com 25
+  284  gem install smtp-tls
+  285  sudo gem install smtp-tls
+  286  curl -s http://s3.amazonaws.com/drawohara.com.ruby/tls_smtp.rb > ./lib/tls_smtp.rb
+  287  ls lib/
+  288  ls
+  289  git diff app/controllers/service_controller.rb
+  290  git help diff
+  291  git diff ./
+  292  git add .
+  293  git commit .
+  294  git push origin master 
+  295  git push heroku master 
+  296  sudo gem install heroku
+  297  git push heroku master 
+  298  heroku keys:add
+  299  heroku keys
+  300  git push heroku master 
+  301  git remote aqueous-thicket-9077 git@heroku.com:myservices.git
+  302  git remote add aqueous-thicket-9077 git@heroku.com:myservices.git
+  303  git push heroku master 
+  304  heroku creae
+  305  heroku create
+  306  git remote -v
+  307  git push heroku master 
+  308  git remote -v
+  309  heroku open
+  310  heroku list
+  311  heroku open -app morning-crag-7311
+  312  heroku logs -app morning-crag-7311
+  313  heroku logs 
+  314  heroku logs -app morning-crag-7311
+  315  heroku help
+  316  heroku destroy -app morning-crag-7311
+  317  git remote -v
+  318  heroku sharing
+  319  heroku list
+  320  heroku sharing
+  321  git remove -v
+  322  git remote -v
+  323  git push heroku
+  324  heroku add
+  325  heroku help
+  326  git remote -v
+  327  git remote rm heroku 
+  328  git remote -v
+  329  git remote rm aqueous-thicket-9077
+  330  git remote -v
+  331  heroku sharing
+  332  heroku login
+  333  git remote -v
+  334  heroku list
+  335  git remote add heroku git@heroku.com:aqueous-thicket-9077
+  336  git remote add heroku git@heroku.com:aqueous-thicket-9077.git
+  337  git remote rm heroku
+  338  git remote add heroku git@heroku.com:aqueous-thicket-9077.git
+  339  git push heroku master
+  340  heroku open
+  341  heroku logs
+  342  git add .
+  343  git push heroku master
+  344  git commit .
+  345  git push heroku master
+  346  heroku open
+  347  heroku logs
+  348  heroku rake db:migrate
+  349  heroku logs
+  350  heroku rake db:migrate
+  351  git push heroku master
+  352  ls
+  353  dir
+  354  ls
+  355  rem Gemfile.lock 2Gemfile.lock
+  356  mv  Gemfile.lock 2Gemfile.lock
+  357  git add .
+  358  git commit .
+  359  git push heroku master
+  360  bundle install
+  361  ls *lock
+  362  bundle install --without production
+  363  ls *.lock
+  364  git add .
+  365  git commit .
+  366  git push heroku master
+  367  heroku rake db:migrate
+  368  heroku logs
+  369  heroku start
+  370  heroku restart
+  371  heroku open
+  372  heroku logs
+  373  git add .
+  374  git commit .
+  375  git push heroku master 
+  376  git add .
+  377  git commit .
+  378  git push heroku master 
+  379  git push origin  master 
+  380  history
+  381  git diff app/controllers/service_controller.rb
+  382  cd ..
+  383  gvim diff.py
+  384  chmod +x diff.py 
+  385  git diff app/controllers/service_controller.rb
+  386  gvim /etc/fstab 
+  387  java
+  388  java --version
+  389  java -version
+  390  sudo apt-get install icedtea-6-plugin 
+  391  ps
+  392  ps -a
+  393  ps -h
+  394  vmg &
+  395  mysql -u root
+  396  cd myservice
+  397  ls
+  398  rails s
+  399  cd myservice
+  400  rails s
+  401  cd Komodo-Edit-7.1.3-11027-linux-x86/
+  402  ls
+  403  sudo ./install.sh 
+  404  ./install.sh 
+  405  sudo ./install.sh 
+  406  export PATH="/home/bbqnow/Komodo-Edit-7/bin:$PATH"
+  407  komodo
+  408  ls
+  409  gvim meetup1.txt &
+  410  ls
+  411  cd spree
+  412  ols
+  413  dir
+  414  komodo &
+  415  cd ..
+  416  cd firefox/
+  417  ls
+  418  sudo ./install
+  419  ls
+  420  install
+  421  install --help
+  422  ls
+  423  firefox
+  424  ls
+  425  ./run-mozilla.sh 
+  426  ls
+  427  cd..
+  428  cd ..
+  429  ls
+  430  cd myservice
+  431  ls
+  432  gem install faye
+  433  sudo gem install faye
+  434  ls
+  435  rackup faye.ru -s thin -E production
+  436  ls
+  437  gvim faye.ru
+  438  gevim faye.ru 
+  439  gvim faye.ru 
+  440  rackup faye.ru -s thin -E production
+  441  ls faye.ru 
+  442  gvim /usr/local/lib/site_ruby/1.9.1/rubygems/custom_require.rb
+  443  rack
+  444  bundle install
+  445  rackup faye.ru -s thin -E production
+  446  rails generate scaffold message content:text 
+  447  rake db:migrate
+  448  rake routes
+  449  git add .
+  450  git commit .
+  451  cd config/
+  452  l;s
+  453  ls
+  454  cd initializers/
+  455  ls
+  456  less configuration.rb 
+  457  rm configuration.rb 
+  458  cd ..
+  459  git diff .
+  460  git commit .
+  461  git push origin master 
+  462  git push heroku master
+  463  heroku rake db:create
+  464  rake db:migrate
+  465  heroku o
+  466  heroku logs
+  467  heroku bundle install
+  468  heroku run bundle install
+  469  rake db:migrate
+  470  heroku logs
+  471  heroku open
+  472  heroku logs
+  473  heroku addons:upgrade logging:expanded
+  474  heroku logs --tail
+  475  git add .
+  476  git commit .
+  477  git push origin master 
+  478  git push heroku master 
+  479  heroku open
+  480  heroku logs --tail
+  481  git add .
+  482  git commit .
+  483  git push heroku master 
+  484  heroku open
+  485  heroku logs --tail
+  486  heroku rake db:migrate
+  487  heroku logs --tail
+  488  git add .
+  489  git commit .
+  490  git push heroku master 
+  491  heroku rake routes
+  492  heroku logs --tail
+  493  heroku rake routes
+  494  git add .
+  495  git commit .
+  496  git push heroku master 
+  497  gvim meetup1.txt 7
+  498  gvim meetup1.txt &
+  499  cd myservice
+  500  ls
+  501  rails s
+  502  komodo &
+  503  \
+  504  komodo
+  505  komodo &
+  506  cd myservice
+  507  rackup faye.ru -s thin -E production
+  508  ls faye.ru 
+  509  rackup faye.ru -s thin -E production
+  510  curl http://myfaye.herokuapp.com/faye -d 'message={"channel":"/messages/new", "data":"hello"}'
+  511  curl -X POST http://myfaye.herokuapp.com/faye -d 'message={"channel":"/messages/new", "data":"hello"}'
+  512  curl -i -X OPTIONS POST http://myfaye.herokuapp.com/faye -d 'message={"channel":"/messages/new", "data":"hello"}'
+  513  curl -i -X OPTIONS  http://myfaye.herokuapp.com/faye -d 'message={"channel":"/messages/new", "data":"hello"}'
+  514  curl -i -X OPTIONS  http://myfaye.herokuapp.com/ -d 'message={"channel":"/messages/new", "data":"hello"}'
+  515  curl -i -X OPTIONS  http://myfaye.herokuapp.com/faye -d 'message={"channel":"/messages/new", "data":"hello"}'
+  516  p
+  517  rackup faye.ru -s thin -E production
+  518  cd myservice
+  519  rackup faye.ru -s thin -E production
+  520  curl -i -X OPTIONS  http://myfaye.herokuapp.com/faye -d 'message={"channel":"/messages/new", "data":"hello"}'
+  521  curl http://localhost:9292/faye -d 'message={"channel":"/messages/new", "data":"hello"}'
+  522  curl -i -X OPTIONS  http://myfaye.herokuapp.com/faye -d 'message={"channel":"/messages/new", "data":"hello"}'
+  523  curl -i -X OPTIONS http://localhost:9292/faye -d 'message={"channel":"/messages/new", "data":"hello"}'
+  524  curl -i  http://localhost:9292/faye -d 'message={"channel":"/messages/new", "data":"hello"}'
+  525  curl -i http://myfaye.herokuapp.com/faye -d 'message={"channel":"/messages/new", "data":"hello"}'
+  526  curl -X POST www.example.com/faye -H 'Content-Type: application/json' -d '{"channel": "/foo", "data": "hi", "ext": {"password": "..."}}'
+  527  curl -X POST http://myfaye.herokuapp.com/faye -H 'Content-Type: application/json' -d '{"channel": "/foo", "data": "hi", "ext": {"password": "..."}}'
+  528  curl -i  http://localhost:9292/faye -d 'message={"channel":"/messages/new", "data":"hello"}'
+  529  curl http://localhost:9292/faye -d 'message={"channel":"/messages/new", "data":"hello"}'
+  530  curl http://localhost:9292/faye -d 'xxxxx'
+  531  curl -X POST http://myfaye.herokuapp.com/faye -H 'Content-Type: application/json' -d '{"channel": "/foo", "data": "hi", "ext": {"password": "..."}}'
+  532  curl http://myfaye.herokuapp.com/faye -d 'message={"channel":"/messages/new", "data":"hello"}'
+  533  curl http://localhost:9292/faye -d 'message={"channel":"/messages/new", "data":"hello"}'
+  534  curl http://myfaye.herokuapp.com/faye -d 'message={"channel":"/messages/new", "data":"hello"}'
+  535  cd ..
+  536  git clone https://github.com/ntenisOT/Faye-Example-Application.git
+  537  cd Faye-
+  538  cd Faye-Example-Application/
+  539  ls
+  540  rails s
+  541  bundle install
+  542  rails s
+  543  rake db:create
+  544  bundle exec
+  545  rake db:create
+  546  bundle install
+  547  rake db:create
+  548  bundle install
+  549  bundle update rake
+  550  rake db:create
+  551  rake db:migrate
+  552  rake db:create
+  553  cd db/
+  554  ls
+  555  cd ..
+  556  rake db:create
+  557  cd d
+  558  cd db
+  559  ls -la
+  560  ls -LA
+  561  cd ..
+  562  rake db:create
+  563  ls db/development.sqlite3 
+  564  sudo apt-get install sqlite3
+  565  gem install sqlite3
+  566  sudo gem install sqlite3
+  567  rake db:create
+  568  rails s
+  569  gem install activerecord-mysql2-adapter
+  570  sudo gem install activerecord-mysql2-adapter
+  571  rails s
+  572  mysql -u root
+  573  rake db:create
+  574  sudo gem install activerecord-mysql2-adapter
+  575  rake db:create
+  576  copy Gemfile Gemfile2
+  577  cp  Gemfile Gemfile2
+  578  cp Gemfile.lock Gemfile.lock2
+  579  del Gemfile.lock
+  580  rm Gemfile.lock
+  581  bundle install
+  582  rails s
+  583  ls
+  584  curl http://localhost:9292/faye -d 'message={"channel":"/messages/new", "data":"hello"}'
+  585  rm Gemfile.lock
+  586  cd ..
+  587  ls
+  588  cd Faye-Heroku-Cedar-RedisToGo/
+  589  ls
+  590  rackup faye.ru -s thin -E production
+  591  rackup config.ru -s thin -E production
+  592  cd ..
+  593  ls
+  594  rm Faye-Example-Application/ old_Faye-Example-Application/
+  595  mv  Faye-Example-Application/ old_Faye-Example-Application/
+  596  git clone https://github.com/ntenisOT/Faye-Example-Application.git
+  597  ls
+  598  mv Faye-Example-Application/ faye_sample
+  599  cd faye_sample/
+  600  ls
+  601  bundle install
+  602  rails 
+  603  rails s
+  604  rake db:create
+  605  ls
+  606  cp Gemfile Gemfile0
+  607  cp Gemfile.lock Gemfile.lock0
+  608  ls
+  609  rm Gemfile.lock
+  610  rails s
+  611  rake db:create
+  612  rake db:migrate
+  613  rails s
+  614  git init
+  615  git add .
+  616  git commit -m "First Commit"
+  617  heroku create faye_sample
+  618  heroku create fayesample
+  619  git add .
+  620  git commit -m "Second Commit"
+  621  git push heroku master
+  622  git add .
+  623  git commit -m "Second Commit"
+  624  git push heroku master
+  625  bundle install --without production
+  626  git push heroku master
+  627  git add .
+  628  git commit -m "Second Commit"
+  629  git commit .
+  630  git add .
+  631  git push heroku master
+  632  heroku bundle install
+  633  heroku run bundle install
+  634  gvim mydeploy
+  635  chmod +x mydeploy 
+  636  ./mydeploy 
+  637  heroku open
+  638  heroku rake db:create
+  639  heroku rake db:migrate
+  640  heroku open
+  641  ls
+  642  cd Faye-Heroku-Cedar-RedisToGo/
+  643  ls
+  644  heroku logs
+  645  tail -f heroku logs
+  646  heroku logs
+  647  tail -f heroku logs
+  648  heroku logs --tail
+  649  ls
+  650  ls *.ru
+  651  ls
+  652  copy config.ru  config2.ru
+  653  cp  config.ru  config2.ru
+  654  rackup config2.ru -s thin -E production
+  655  bundle exec
+  656  rackup config2.ru -s thin -E production
+  657  rackup config.ru -s thin -E production
+  658  git add .
+  659  git commit .
+  660  git push heroku master 
+  661  curl http://myfaye.herokuapp.com/faye -d 'message={"channel":"/messages/new", "data":"hello"}'
+  662  rackup config.ru -s thin -E production
+  663  heroku logs
+  664  komodo &
+  665  cd ../faye_sample/
+  666  ls
+  667  cd d
+  668  cd db
+  669  ls
+  670  sqlite3
+  671  ls
+  672  sqlite3 development.sqlite3 
+  673  ls
+  674  cd ..
+  675  ls
+  676  cd opera-12.12-1707.i386.linux/
+  677  ls
+  678  sudo ./install 
+  679  ls
+  680  cd ..
+  681  rails myclip -d mysql
+  682  rails new myclip -d mysql
+  683  opera &
+  684  ls
+  685  cd myservice
+  686  ls
+  687  cd ..
+  688  cd clipita/
+  689  cd ..
+  690  cd myclip/
+  691  ls
+  692  copy random.rb ../clipita/
+  693  cp random.rb ../clipita/
+  694  cd ../clipita/
+  695  rails s
+  696  clear
+  697  rails s
+  698  cd myservice
+  699  ls
+  700  komodo &
+  701  ls
+  702  rackup faye.ru -s thin -E production
+  703  curl http://localhost:9292/faye -d 'message={"channel":"/messages/new", "data":"hello"}'
+  704  curl http://fayeserverexample.herokuapp.com/faye -d 'message={"channel":"/messages/new", "data":"hello"}'
+  705  curl http://fayeserverexample.herokuapp.com/faye -d 'message={"channel":"/messages/new", "data":"hello", "auth_token":"anything"}'
+  706  curl http://fayeserverexample.herokuapp.com/faye -d 'message={"channel":"/messages/new", "data":"hello", "ext":"anything"}'
+  707  curl http://fayeserverexample.herokuapp.com/faye -d 'message={"channel":"/messages/new", "data":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "ext":"anything"}'
+  708  rackup faye.ru -s thin -E production
+  709  curl http://fayeserverexample.herokuapp.com/faye -d 'message={"channel":"/messages/new", "data":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "ext":"{auth_token:anything}"}'
+  710  curl http://fayeserverexample.herokuapp.com/faye -d 'message={"channel":"/messages/new", "data":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "ext=":"anything2"}'
+  711  curl http://fayeserverexample.herokuapp.com/faye -d 'message={"channel":"/messages/new", "data":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "ext":"{auth_token=anything}"}'
+  712  curl http://myfaye.herokuapp.com/faye -d 'message={"channel":"/messages/new", "data":"hello"}'
+  713  curl http://fayeserverexample.herokuapp.com/faye -d 'message={"channel":"/messages/new", "data":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "ext":"anything"}'
+  714  curl http://fayeserverexample.herokuapp.com/faye -d 'message={"channel":"/messages/new", "data":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "ext2":"anything"}'
+  715  cd ..
+  716  ls
+  717  cd Faye-Heroku-Cedar-RedisToGo/
+  718  ls
+  719  heroku run ls
+  720  heroku run curl -X POST http://myfaye.herokuapp.com/faye -H 'Content-Type: application/json' -d '{"channel": "/foo", "data": "hi", "ext": {"password": "..."}}'
+  721  heroku run curl http://fayeserverexample.herokuapp.com/faye -d 'message={"channel":"/messages/new", "data":"hello"}'
+  722  sudo apt-get install sqlite3
+  723  cd ,,
+  724  cd ..
+  725  gvim .bashrc
+  726  open
+  727  opera
+  728  opera &
+  729  ls
+  730  cd myclip/
+  731  ls
+  732  gvim design.txt
+  733  ruby random.rb 
+  734  gedit design.txt &
+  735  rails generate model User first:string last:string email:string login:string password_digest:string password_hash:string password_salt:string 
+  736  gem install activerecord-jdbcmysql-adapter
+  737  sud ogem install activerecord-jdbcmysql-adapter
+  738  sudo gem install activerecord-jdbcmysql-adapter
+  739  rails generate model User first:string last:string email:string login:string password_digest:string password_hash:string password_salt:string 
+  740  rails generate model History paste:text user:references 
+  741  cd ..
+  742  ls
+  743  cd myclip/
+  744  ls
+  745  rails generate Note name:string
+  746  rails generate model Note name:string
+  747  sudo gem install activerecord-jdbcmysql-adapter
+  748  rails generate model Note name:string
+  749  sudo gem install --platform java activerecord-jdbcmysql-adapter
+  750  rails generate model Note name:string
+  751  mysql -u root
+  752  ls
+  753  rails new clipita -d mysql
+  754  cd clipita/
+  755  ls
+  756  rails generate model User first:string last:string email:string login:string password_digest:string password_hash:string password_salt:string 
+  757  rails generate model Clip name:string paste:text user:references history:references
+  758  rails generate model History paste:text user:references 
+  759  ruby random.rb 
+  760  copy random.rb random.rb.bak 
+  761  cp random.rb random.rb.bak 
+  762  rake db:create
+  763  rake db:migrate
+  764  rake routes
+  765  ipconfig
+  766  ifconfig
+  767  cd log/
+  768  ls
+  769  gvim development.log 
+  770  cd ..
+  771  ruby UniqueClip.rb 
+  772  copy UniqueClip.rb app/models/
+  773  cp  UniqueClip.rb app/models/
+  774  rake routes
+  775  ls
+  776  ipconfig
+  777  ifconfig
+  778  ls
+  779  mv UniqueClip2.rb ../
+  780  gvim
+  781  cd myservice
+  782  rails s
+  783  heroku open
+  784  rails s
+  785  ls
+  786  cd ..
+  787  ls
+  788  rails myblog -d sqlite3
+  789  rails new myblog -d sqlite3
+  790  cd myblog/
+  791  ls
+  792  cd config/
+  793  ls
+  794  gvim database.yml 
+  795  rails g scaffold post title:string body:text
+  796  ls
+  797  cd ..
+  798  cd app/
+  799  ls
+  800  cd controllers/
+  801  ls
+  802  cd ..
+  803  rails g scaffold comment name:string body:text post:references
+  804  cd app/models/
+  805  gvim post.rb 
+  806  gvim comment.rb 
+  807  rake db:create
+  808  cd ..
+  809  rake db:migrate
+  810  ls
+  811  gvim Gemfile
+  812  cd ..
+  813  cd myservice
+  814  heroku open
+  815  cd ..
+  816  ls
+  817  cd myservice
+  818  ls
+  819  heroku open
+  820  komodo &
+  821  ls *.txt
+  822  gedit his.txt &
+  823  ls
+  824  cd ..
+  825  ls
+  826  gvim dev.txt
+  827  ls
+  828  mv dev.txt myservice
+  829  ls
+  830  cd my
+  831  cd myservice
+  832  ls
+  833  mv dev.txt myservice_design.txt
+  834  git add .
+  835  git commit .
+  836  git push origin master 
+  837  git push heroku master 
+  838  ls
+  839  gedit myservice_design.txt 
+  840  opera &
+  841  rake routes
+  842  &vmg $
+  843  vmg &
+  844  clear
+  845  cls
+  846  ls
+  847  history
+  848  ls
+  849  cd clipita/
+  850  rails s
+  851  process
+  852  ps
+  853  export | grep -i face
+  854  cd clipita/
+  855  rails s
+  856  cd clipita/
+  857  ls
+  858  git add .
+  859  git init
+  860  git add .
+  861  git commit -m "first"
+  862  git push
+  863  git remote add clipita
+  864  git remote add origin https://github.com/bbqfast/clipita.git
+  865  git add .
+  866  git commit .
+  867  ls
+  868  git push origin master 
+  869  git remote add origin https://github.com/bbqfast/clipita.git
+  870  git push origin master 
+  871  update-server-info
+  872  git list
+  873  git remote add origin git@github.com:bbqfast/clipita.git
+  874  git remote remove origin
+  875  git remote rm origin
+  876  git remote add origin git@github.com:bbqfast/clipita.git
+  877  git push origin master 
+  878  git remote add origin https://github.com/bbqfast/clipita.git
+  879  git remote rm origin 
+  880  git remote add origin https://github.com/bbqfast/clipita.git
+  881  git push origin master 
+  882  ruby --v
+  883  ruby -v
+  884  history 
+  885  git origin -v
+  886  git remove -v
+  887  git remote -v
+  888  rails g model ouser provider uid name oauth_token oauth_expires_at:datetime
+  889  bundle install
+  890  rails g model ouser provider uid name oauth_token oauth_expires_at:datetime
+  891  git add .
+  892  git commit .
+  893  heroku create clipita
+  894  git push origin master 
+  895  git push heroku master 
+  896  bundle install --without production
+  897  git add .
+  898  git commit .
+  899  git push heroku master 
+  900  heroku rake db:create
+  901  heroku rake db:migrate
+  902  heroku open
+  903  gvim Gemfile.lock 
+  904  rake routes
+  905  xe
+  906  rake routes
+  907  cd public/
+  908  ls
+  909  mv index.html index.html.bak
+  910  export FACEBOOK_APP_ID=510211639019224
+  911  export FACEBOOK_APP_ID
+  912  export FACEBOOK_APP_ID=510211639019224
+  913  export
+  914  export | grep -i face
+  915  cd ..
+  916  ../
+  917  cd ..
+  918  ./.bashrc
+  919  cd clipita/
+  920  rake routes
+  921  gvim Gemfile
+  922  gvim Gemfile.lock 
+  923  gvim Gemfile
+  924  bundle install
+  925  git add .
+  926  git commit
+  927  git push origin master 
+  928  git push heroku master 
+  929  heroku rake db:create
+  930  heroku rake db:migrate
+  931  heroku open
+  932  ifconfig
+  933  cd log/
+  934  s
+  935  ls
+  936  tail -f my.log 
+  937  clear
+  938  tail -f my.log 
+  939  ls
+  940  rm my.log 
+  941  tail -f my.log 
+  942  vim my.log 
+  943  gvim my.log 
+  944  redcar
+  945  cd ..
+  946  ls
+  947  ruby code.rb 
+  948  rake db:migrate
+  949  cd log/
+  950  ls
+  951  tail -f my.log 
+  952  komodo &
+  953  gedit &
+  954  cd myservice
+  955  git list
+  956  git add
+  957  git remote sow
+  958  git remote show
+  959  git remote show origin
+  960  ls
+  961  cd ../clipita/
+  962  ls
+  963  faygay77
+  964  java
+  965  rake routes
+  966  export | grep -i auth
+  967  rake routes
+  968  e gvim
+  969  gvim
+  970  rails generate migration UniqueClip
+  971  opera &
+  972  git diff
+  973  git add .
+  974  git commit .
+  975  git push origin master 
+  976  git push heroku master 
+  977  heroku rake db:migrate
+  978  cd ..
+  979  wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+  980  heroku login
+  981  gem install redcar
+  982  sudo gem install redcar
+  983  cd clipita/
+  984  ls
+  985  heroku logs
+  986  tail -f heroku logs
+  987  heroku logs --tail
+  988  git add .
+  989  git commit .
+  990  git push heroku master 
+  991  cd ..
+  992  ls 
+  993  gedit design_clipita.txt 
+  994  gedit design_clipita.txt  &
+  995  heroku config:add FACEBOOK_APP_ID=510211639019224
+  996  cd clipita/
+  997  heroku config:add FACEBOOK_APP_ID=510211639019224
+  998  heroku config:add FACEBOOK_APP_ID='510211639019224'
+  999  heroku config:get FACEBOOK_APP_ID='510211639019224'
+ 1000  heroku config:get FACEBOOK_APP_ID
+ 1001  heroku config:add FACEBOOK_APP_ID=510211639019224
+ 1002  cd ..
+ 1003  heroku config:add FACEBOOK_APP_ID=510211639019224
+ 1004  heroku --app clipitaconfig:add FACEBOOK_APP_ID=510211639019224 
+ 1005  heroku --app clipita config:add FACEBOOK_APP_ID=510211639019224 
+ 1006  heroku config:add --app clipita FACEBOOK_APP_ID=510211639019224 
+ 1007  cd clipita/
+ 1008  ls
+ 1009  gedit gitc
+ 1010  gedit gitc.bat
+ 1011  chmod +x gitc.bat 
+ 1012  ./gitc.bat 
+ 1013  git push heroku master 
+ 1014  ls
+ 1015  mv gitc.bat c.bat
+ 1016  ./c
+ 1017  ./c.bat 
+ 1018  git push heroku master 
+ 1019  ./c.bat 
+ 1020  git push heroku master 
+ 1021  cp c.bat c1.bat
+ 1022  gedit c1.bat 
+ 1023  ./c1.bat
+ 1024  git push heroku master 
+ 1025  ./c1.bat
+ 1026  git push heroku master 
+ 1027  ./c1.bat
+ 1028  git push heroku master 
+ 1029  cd ..
+ 1030  gvim .bashrc
+ 1031  cd myservice
+ 1032  redcar* .
+ 1033  redcar .
+ 1034  cd ..
+ 1035  cd clipita/
+ 1036  ls
+ 1037  git diff .
+ 1038  heroku pg:psql
+ 1039  heroku addons:add heroku-postgresql:dev
+ 1040  heroku pg:psql
+ 1041  apt-get install postgresql
+ 1042  sudp apt-get install postgresql
+ 1043  sudo apt-get install postgresql
+ 1044  heroku pg:psql
+ 1045  ifconfig
+ 1046  e gv .bashrc
+ 1047  gvim .bashrc
+ 1048  gvim design_clipita.txt
+ 1049  gvim .bashrc
+ 1050  cd clipita/
+ 1051  ls
+ 1052  mysql 
+ 1053  mysql -u root clipita_development
+ 1054  gvim devdb
+ 1055  chmod +x devdb 
+ 1056  ./devdb 
+ 1057  mysql -u root clipita_development
+ 1058  cd clipita/
+ 1059  ls
+ 1060  git add .
+ 1061  git diff .
+ 1062  git diff 
+ 1063  git diff .
+ 1064  git diff *
+ 1065  history
+ 1066  history > o

@@ -1,5 +1,6 @@
 Todo list:
 --------------
+- history 
 - share URL wrong on visit homepage
 - custom clip name
 - change wording for access clip for registered user
